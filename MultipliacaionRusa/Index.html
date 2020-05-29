@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>
+		Ejercicios
+	</title>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<div class="principal">
+		<div class="contenedor">
+			<h1 class="titulo">Multiplicacion Rusa</h1><br>
+			<form class="contenedor-formulario">
+			    <div class="formulario">
+			    	<div class="contenedor-cajaTexto">
+			    		<div class="contenedor1">
+				    		<h3>Escribir aqui</h3>
+				    		<input type="numeric" id="multiplicador">
+				    	</div>
+				    	<div class="contenedor2">
+				    		<h3>Escribir aqui</h3>
+				    		<input type="numeric" id="multiplicando">
+				    	</div>
+			    	</div>
+			    </div>
+			    <div class="botones">
+				    <input type="button" id="enviar" value="crea tu tablita" onclick="crearTabla()"/>
+				    <input type="button" id="limpiar" value="limpialo aqui" onclick="limpiarTabla()"/>
+			    </div>
+			</form>
+			<h2>Aqui esta tu Resultado</h2><br>
+			<div class="contenedorResultado">
+				<div id='resultado'>
+					<table class='tabla'>
+						<thead>
+                			<th>Primer numero</th>
+                			<th>Segundo numero</th>
+                			<th>Multiplicación Impar</th>
+                			<th>Suma</th>
+            			</thead>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
